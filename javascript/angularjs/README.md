@@ -1,0 +1,1 @@
+详见Javascript里面的AngularJS
