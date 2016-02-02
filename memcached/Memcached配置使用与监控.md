@@ -31,7 +31,7 @@ sudo apt-get install memcached
 ```    
 
 注意：32位的操作系统中，每个进程最多只能够使用**2G**的内存，所以需要更大的内存的时候就只能进行集群了。（用同一台服务器进行集群，TCP连接数就会成倍增加，x86_64的操作系统可以分配超过2G的内存）；
-    
+
 mc进程的实际内存分配量要比置顶的内存要大一些，所以如果置顶分配的内存太大了，有可能导致内存交换（swap）。
 
 #2、集群配置
@@ -74,7 +74,7 @@ cd ../
 ###2.1.4、集群配置
 集群两台服务器，实现缓存备份。
 高可用网络架构：    
-![](https://raw.githubusercontent.com/arthinking/arthinking.github.io/master/images/2014/12/20141217-mc001.png) 
+![](https://raw.githubusercontent.com/arthinking/my-document/master/images/2014/12/20141217-mc001.png)
 
 **启动两个mc进程，端口分别为11211,11212**
 ```shell
@@ -108,7 +108,7 @@ stats
 > 相关资源：
 >     
 > [memcached+magent实现memcached集群](http://www.cnblogs.com/happyday56/p/3461113.html "memcached+magent实现memcached集群")     
-> 
+>
 > [memcache集群服务：memagent配置使用  ](http://zhumeng8337797.blog.163.com/blog/static/10076891420113431424757/ "memcache集群服务：memagent配置使用  ")
 
 > 发表于：http://www.itzhai.com/mc-config-and-monitoring.html
