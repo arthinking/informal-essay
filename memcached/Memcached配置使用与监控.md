@@ -74,7 +74,7 @@ cd ../
 ###2.1.4、集群配置
 集群两台服务器，实现缓存备份。
 高可用网络架构：    
-![](https://raw.githubusercontent.com/arthinking/my-document/master/images/2014/12/20141217-mc001.png)
+![](https://raw.githubusercontent.com/arthinking/informal-essay/master/images/2014/12/20141217-mc001.png)
 
 **启动两个mc进程，端口分别为11211,11212**
 ```shell

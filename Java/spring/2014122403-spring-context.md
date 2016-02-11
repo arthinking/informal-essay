@@ -4,7 +4,7 @@ ApplicationContext 是 Context 的顶级父类，他除了能标识一个应用�
 
 **Context相关的类结构图**
 
-![](https://raw.githubusercontent.com/arthinking/my-document/master/images/2014/12/20141224-spring005.png)    
+![](https://raw.githubusercontent.com/arthinking/informal-essay/master/images/2014/12/20141224-spring005.png)    
 
 从上图中可以看出 ApplicationContext 继承了 BeanFactory，这也说明了 Spring 容器中运行的主体对象是 Bean，另外 ApplicationContext 继承了 ResourceLoader 接口，使得 ApplicationContext 可以访问到任何外部资源，这将在 Core 中详细说明。
 
